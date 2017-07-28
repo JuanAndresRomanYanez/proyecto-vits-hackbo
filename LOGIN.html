@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <title>LOGIN</title>
+    <link rel="stylesheet" href="archivocss/estilos.css">
+    <link rel="stylesheet" href="archivocssform/estilosform.css">
+</head>
+<body>
+   <header>
+        <h3 class="titulo_principal">
+            U.E. DE CONVENIO EVANGELICO BUENAS NUEVAS
+        </h3>
+   </header>
+   <<nav>
+       
+   </nav>
+   <h3 class="tiform">Ingresa tus Credenciales</h3>
+   <section class = "login">       
+       <form action="/login" method="post">
+           <label for="lname">Usuario:</label>
+           <input type="text" id="fname" name="log" placeholder="Usuario...">
+
+           <label for="lname">Contraseña:</label>
+           <input type="password" id="lname" name="pas" placeholder="Contraseña...">
+
+           <label for=lname>Tipo de usuario: </label>
+           <select name="select" class="select">
+               <option value="1" class="valueselect">Ninguno</option>
+               <option value="2" class="valueselect">Administrador</option>
+               <option value="3" class="valueselect">Profesor</option>
+               <option value="4" class="valueselect">Padre</option>
+           </select>
+  
+           <input value="Ingresar" type="submit" />
+      </form>
+   </section>
+   <footer class="pie_form">
+       <h3 class="foot">Desarrollado por: E&A Corp. </h3>
+       <h3 class="foot2">Derechos Reservados: Julio - 2017 / HackBo - 2017</h3>
+   </footer>
+</body>
+</html>

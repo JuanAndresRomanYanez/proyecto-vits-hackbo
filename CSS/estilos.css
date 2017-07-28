@@ -1,0 +1,110 @@
+*{
+    background-color: #EAEDED;
+}
+
+header, .titulo_principal{
+    background-color: #2874A6;
+    margin: -8px;
+    padding: 10px;
+}
+
+nav{
+    position: absolute;
+    margin-left: 1720px;
+    margin-right: 0;
+    margin-top: -53px;
+    border-color: #2874A6;
+    
+}
+
+nav, .list, .elemento{
+    background-color: #2874A6;
+}
+
+ul, ol{
+    list-style: none;
+}
+
+li{
+    float: left;
+}
+
+li .ais{
+    background-color:#2874A6; 
+    color: white;
+    text-decoration: none;
+    display: block;
+    font-size: 17px;
+    font-style: normal;
+    font-family: arial black;
+}
+
+li .ais:hover{
+    color: yellow;
+}
+
+
+.titulo_principal{
+    margin-left: 5px;
+    color: yellow;
+    padding: 10px;
+    text-align: center;
+    font-size: 40px;
+}
+
+section{
+    margin-top: 70px;
+}
+
+.logo_principal{
+    width: 800px;
+    margn-top:10px;
+    margin-left: 29%;
+}
+
+.loguitos{
+    position: absolute;
+    margin-left: 697px;
+    margin-top: 150px;
+}
+
+.ilogo{
+    width: 70px;
+    margin-top: -25px;
+    margin-left: 55px
+}
+
+footer{
+    background-color: #2874A6;
+    margin-top: 204px;
+    margin-left: -14px;
+    margin-right: -6px;
+}
+
+.foot, .foot2{
+    background-color: #2874A6;
+    text-align: center;
+    color: white;
+    margin: 0;
+    border: none;
+}
+
+.foot, .foot2{
+    font-family: sans-serif;
+    font-size: 15px;
+    color: yellow;
+}
+
+.logo_barra{
+    width: 50px;
+    background-color: #2874A6;
+}
+
+.login{
+    position: absolute;
+    background-color: white;
+}
+
+.label, .{
+    background-color: white;
+}
